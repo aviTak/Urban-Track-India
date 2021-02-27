@@ -1,0 +1,38 @@
+.contact__heading, .sub__heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Crimson Text', serif;
+    font-size: 3.2rem;
+}
+
+.contact__heading{
+    padding-bottom: 1%;
+}
+
+.contact__para, .sub__para{
+    font-size: 1.3rem;
+    line-height: 1.618em;
+    font-family: 'Work Sans', cursive;  
+    text-align: justify;
+}
+
+.clear::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.sub__heading{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-top: 10%;
+    text-decoration: underline;
+}

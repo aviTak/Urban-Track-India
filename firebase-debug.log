@@ -1,0 +1,40 @@
+[debug] [2020-04-13T12:24:55.748Z] ----------------------------------------------------------------------
+[debug] [2020-04-13T12:24:55.751Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Neeraj Maniktala\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-04-13T12:24:55.752Z] CLI Version:   8.0.2
+[debug] [2020-04-13T12:24:55.752Z] Platform:      win32
+[debug] [2020-04-13T12:24:55.752Z] Node Version:  v13.2.0
+[debug] [2020-04-13T12:24:55.754Z] Time:          Mon Apr 13 2020 17:54:55 GMT+0530 (India Standard Time)
+[debug] [2020-04-13T12:24:55.754Z] ----------------------------------------------------------------------
+[debug] [2020-04-13T12:24:55.755Z] 
+[debug] [2020-04-13T12:24:55.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-13T12:24:55.905Z] > authorizing via signed-in user
+[debug] [2020-04-13T12:24:55.906Z] [iam] checking project urban-track for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-04-13T12:24:55.912Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/urban-track:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-04-13T12:24:57.911Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 13 Apr 2020 12:24:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1712","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-13T12:24:57.916Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project urban-track:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2020-04-13T12:24:57.921Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/urban-track  
+ 
+[debug] [2020-04-13T12:24:58.363Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Mon, 13 Apr 2020 12:24:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-13T12:24:58.364Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-04-13T12:24:58.408Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-04-13T12:24:58.671Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Neeraj Maniktala\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Neeraj Maniktala\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:40:35)
+    at Request.self.callback (C:\Users\Neeraj Maniktala\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:478:20)
+    at Request.<anonymous> (C:\Users\Neeraj Maniktala\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:478:20)
+    at IncomingMessage.<anonymous> (C:\Users\Neeraj Maniktala\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:478:20)
+    at endReadableNT (_stream_readable.js:1200:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to get Firebase project urban-track. Please make sure the project exists and your account has permission to access it.

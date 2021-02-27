@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+
+.home__image{
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 63vh, 0 100%);
+    transition: .5s;
+}
+
+.image__container{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);   
+    width: 100%; 
+    padding: 0 1%;
+}
+
+.image__heading{
+    font-size: 3rem;
+    font-family: 'Philosopher', sans-serif;
+    font-variant: small-caps;
+}
+
+.image__para{
+    font-size: 2.2rem;
+    font-family: 'Work Sans', cursive;  
+    margin-top: .7%;
+}
+
+

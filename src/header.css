@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+.heading__main{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Crimson Text', serif;
+    font-size: 3.2rem;
+    padding: 0;
+    padding-top: 4.5%;
+}
+
+.heading__para{
+    font-size: 1.3rem;
+    line-height: 1.618em;
+    font-family: 'Work Sans', cursive;     
+    text-align: justify;
+    padding: 1% 0;
+}

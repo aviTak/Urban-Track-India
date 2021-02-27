@@ -1,0 +1,27 @@
+#flaw{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
+#flaw svg{
+    padding: 0 10px;
+    width: 65px;
+    height: 65px;
+    fill: #fdf0c4;
+}
+
+g rect{
+    fill: #2f375b;
+}
+
+rect{
+    fill: #fdf0c4;
+}
+
+#flaw svg:hover{
+    transform: scale(1.2);
+}

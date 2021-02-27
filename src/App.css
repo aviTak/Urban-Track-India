@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans&display=swap');
+
+/*Phone-Portrait*/
+
+@media only screen and (max-width: 599px) {
+  /*html {
+    font-size: 35%; 
+  }*/
+  .navlogoa, .hammenu li a{
+    font-size: 1.8rem;
+  }
+  .menq{
+    width: 30px;
+    height: 30px;
+  }
+  .heading__main{
+    padding-top: 40px;
+  }
+  .slide{
+    height: 280px !important;
+  }
+  .about__image{
+    height: 220px !important;
+  }
+  .Tphoto__cover, .Tpara__cover{
+    width: 100% !important;
+  }
+  .Tpara__cover{
+    margin-top: 4% !important;
+    padding-top: 0 !important;
+  }
+  .right{
+    float: left;
+  }  
+  .sub__para, .sub__heading{
+    text-align: center !important;
+  }
+  .left, .right{
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    text-align: center;
+  }
+  #flaw svg{
+    width: 38px !important;
+    height: 38px !important;
+    padding: 0 6px !important;
+  }
+  .footer__link{
+    padding-right: 3.6% !important;
+  }
+  .footer__last{
+    padding: 0 !important;
+  }
+  .xine{
+    display: none !important;
+  }
+  .line{
+    height: 3px !important;
+  }
+}
+
+
+/*Tablet-Portrait*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) and (min-height: 600px) {
+  html {
+    font-size: 75%; /* 7.68px */
+  }
+  .navlogoa, .hammenu li a{
+    font-size: 1.8rem;
+  }
+  .about__image{
+    height: 460px !important;
+  }
+  .menq{
+    width: 40px;
+    height: 40px;
+  }
+  .heading__main{
+    padding-top: 45px;
+  }
+  .slide, .about__image{
+    height: 500px !important;
+  }
+  .Tphoto__cover, .Tpara__cover{
+    width: 100% !important;
+  }
+  .Tpara__cover{
+    margin-top: 4% !important;
+    padding-top: 0 !important;
+  }
+  #flaw svg{
+    width: 55px !important;
+    height: 55px !important;
+  }
+  .xine{
+    display: none !important;
+  }
+}
+
+/*Phone-Landscape*/
+
+@media only screen and (min-width: 500px) and (max-width: 900px) and (max-height: 600px) {
+  /*html {
+    font-size: 35%; 
+  }*/
+  .navlogoa, .hammenu li a{
+    font-size: 1.8rem;
+  }
+  .menq{
+    width: 30px;
+    height: 30px;
+  }
+  .heading__main{
+    padding-top: 40px;
+  }
+  #flaw svg{
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .xine{
+    height: 100px !important;
+    width: 8px !important;
+  }
+  .xine--2{
+    width: 120px !important;
+    height: 8px !important;
+  }
+  .line{
+    height: 3px !important;
+  }
+}
+
+/* Tablet-Landscape*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) and (max-height: 900px) {
+  html {
+    font-size: 75%; /* 7.68px */
+  }
+  .navlogoa, .hammenu li a{
+    font-size: 1.8rem;
+  }
+  .menq{
+    width: 40px;
+    height: 40px;
+  }
+  #flaw svg{
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+
+/*Laptop*/
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+  .Tphoto__cover{
+    height: 600px !important;
+  }
+  .part{
+    height: 620px !important;
+  }
+  .xine{
+    height: 200px;
+    width: 12px;
+  }
+  .xine--2{
+    width: 260px;
+    height: 12px;
+  }
+}
+
+/* Big Desktop*/
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 102.5%;
+  }
+}

@@ -1,0 +1,147 @@
+.test__heading {
+  font-family: 'Crimson Text', serif;
+}
+
+.test__heading {
+  padding: 0% 0 3% 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3.2rem;
+}
+
+.clearfix {
+  margin-bottom: 7%;
+}
+
+.clearfix:last-child {
+  margin-bottom: 5%;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.Tphoto {
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease-in;
+}
+
+.Tphoto,
+.Tphoto__cover {
+  background-color: #2f375b;
+}
+
+.Tphoto__cover {
+  overflow: hidden;
+  width: 48%;
+  height: 400px;
+  position: relative;
+  float: left;
+  padding: 2%;
+}
+
+.part{
+  height: 500px !important;
+}
+
+.Tphoto__cover:hover .Tphoto {
+  transform: scale(1.2);
+}
+
+.Tphoto__cover:hover .temp {
+  visibility: visible;
+}
+
+.temp {
+  top: 0;
+  height: 100%;
+  background-color: rgba(47, 55, 91, .7);
+  visibility: hidden;
+}
+
+.temp,
+.temp--cent {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.temp--cent {
+  top: 50%;
+  color: #ffffff;
+  text-align: center;
+  transform: translateY(-50%);
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.temp--cent,
+.Tpara {
+  font-family: 'Work Sans', cursive;  
+}
+
+.Tpara {
+  line-height: 1.618em;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.Tpara__cover {
+  float: right;
+  width: 48%;
+  padding-top: 3.5%;
+}
+
+.vet{
+  padding-top: .8% !important;
+}
+
+.Tspan {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: right;
+  display: block;
+  margin-top: 1.4%;
+}
+
+.clearfix:nth-child(odd) .Tpara__cover {
+  float: left;
+}
+
+.clearfix:nth-child(2n) .Tpara__cover,
+.clearfix:nth-child(odd) .Tphoto__cover {
+  float: right;
+}
+
+.clearfix:nth-child(2n) .Tphoto__cover {
+  float: left;
+}
+
+.xine {
+  background-color: #2f375b;
+  width: 10px;
+  height: 120px;
+  position: absolute;
+  bottom: 8%;
+  right: 0;
+}
+
+.xine--2 {
+  height: 10px;
+  width: 140px;
+}
+
+.clearfix:nth-child(odd) .xine--1,
+.clearfix:nth-child(odd) .xine--2 {
+  left: 0;
+}

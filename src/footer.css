@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+
+.line{
+    width: 100%;
+    background-color: #2f375b;
+    height: 5px;
+}
+
+.line--1{
+    margin: 4% 0 1.5% 0;
+}
+
+.footer__para a:link, a:visited{
+    color: #2f375b;
+    position: relative;
+}
+
+.line--2{
+    margin: 1.5% 0 4% 0;
+}
+
+.footer__link{
+    font-size: 1.1rem;
+    line-height: 1.618em;
+    font-family: 'Work Sans', cursive;  
+    padding-right: 10%;
+    color: #2f375b;
+}
+
+.footer__cover{
+    text-align: center;
+}
+
+.footer__last{
+    padding: 0;
+}
+
+.credit__name{
+    font-family: 'Cedarville Cursive', cursive;  
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.618em;
+    padding-bottom: 2%;
+    color: #2f375b;
+}
+
+.ms{
+    color: #2f375b;
+}
+
+
